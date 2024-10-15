@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+
+
+#########################################
+Models/dt_model.pkl
+Models/knn_model.pkl
+Models/linear_model.pkl
+Models/rf_model.pkl
+
+#########################################
+
 # Distribution / packaging
 .Python
 build/
