@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Diamond Price Prediction</h1>
+        <form action="/predict" method="POST">
+            <label for="carat">Carat:</label>
+            <input type="text" name="carat" required><br>
+
+            <label for="cut">Cut:</label>
+            <input type="text" name="cut" required><br>
+
+            <label for="color">Color:</label>
+            <input type="text" name="color" required><br>
+
+            <label for="clarity">Clarity:</label>
+            <input type="text" name="clarity" required><br>
+
+            <label for="depth">Depth:</label>
+            <input type="text" name="depth" required><br>
+
+            <label for="table">Table:</label>
+            <input type="text" name="table" required><br>
+
+            <label for="x">X:</label>
+            <input type="text" name="x" required><br>
+
+            <label for="y">Y:</label>
+            <input type="text" name="y" required><br>
+
+            <label for="z">Z:</label>
+            <input type="text" name="z" required><br>
+
+            <input type="submit" value="Predict Price">
+        </form>
+
+        {% if prediction %}
+            <h2>Predicted Price: ${{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
