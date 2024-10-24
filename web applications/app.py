@@ -85,7 +85,7 @@ def predict():
 
             # Make the prediction using the trained model
             prediction = model.predict(input_features)
-            predicted_price = round(prediction[0], 6)
+            predicted_price = round(prediction[0], 2)
 
             # Render the results page with the predicted price
             return render_template('results.html', final_result=predicted_price)
