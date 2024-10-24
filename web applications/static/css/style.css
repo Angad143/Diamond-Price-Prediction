@@ -1,81 +1,113 @@
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('https://www.wallpaperflare.com/static/119/256/853/space-tylercreatesworlds-diamonds-space-art-wallpaper.jpg');
-    background-size: cover;
-    background-color: #f5f5f5;
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.51d7531a652bcb7ef20e36c011d3044d?rik=7b79oFN3taxIkA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f90513-universe-galaxy-space.jpg&ehk=SNAvlCQAUs1y6JJnjU5oykJMKHINjMwK69Mu311VWi0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.container, .form-container {
-    max-width: 600px;
-    margin: 0 auto;
+.form-container {
+    max-width: 670px;
+    margin: 50px auto;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(186, 182, 182);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
     text-align: center;
-    color: #007BFF;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.5;
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-inline label {
+    margin: 5px 10px 5px 0;
+    width: 10%;
+}
+
+.form-inline input {
+    padding: 10px;
+    margin: 5px 0px 10px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 5px;
+
+}
+
+.form-inline select {
+    padding: 10px;
+    margin: 5px 0px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 33.5%;
+    border-radius: 5px;
+
+}
+
+.form-inline input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #45a049;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-inline input[type="submit"]:hover {
+    background-color: rgb(64, 133, 41);
+}
+
+@media (max-width: 800px) {
+    .form-inline input, .form-inline select, .form-inline label {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.result-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result-container h1 {
     margin-bottom: 20px;
 }
 
-a {
+.result-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.result-container a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #4CAF50;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
-a:hover {
-    background-color: #0056b3;
-}
-
-.form-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    font-weight: bold;
-    display: block;
-}
-
-input[type="text"], select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-input[type="submit"] {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.result {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
+.result-container a:hover {
+    background-color: #45a049;
 }

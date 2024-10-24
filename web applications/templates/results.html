@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Diamond Price Prediction Result</h1>
+
+        {% if final_result %}
+            <p>The predicted price of the diamond is: <strong>${{ final_result }}</strong></p>
+        {% else %}
+            <p><strong>Error:</strong> There was an issue with the prediction. Please try again.</p>
+        {% endif %}
+
+        <a href="/">Predict Another Diamond</a>
+    </div>
+</body>
+</html>
