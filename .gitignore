@@ -9,10 +9,11 @@ __pycache__/
 
 
 #########################################
-Models/dt_model.pkl
-Models/knn_model.pkl
-Models/linear_model.pkl
-Models/rf_model.pkl
+models/dt_model.pkl
+models/knn_model.pkl
+models/linear_model.pkl
+models/rf_model.pkl
+web applications/best_model/rf_model.pkl
 
 #########################################
 
