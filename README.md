@@ -1,3 +1,19 @@
+# **Tools and Libraries Used in Our Project**
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Matplotlib-007ACC?style=flat&logo=plotly&logoColor=white" alt="Matplotlib" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat&logoColor=white" alt="Seaborn" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Random_Forest-006400?style=flat&logo=forest&logoColor=white" alt="Random Forest" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" style="flex: 1 1 30%;">
+</div>
 
 # Diamonds Price Prediction 💎
 
