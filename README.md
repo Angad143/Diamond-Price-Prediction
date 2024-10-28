@@ -74,6 +74,23 @@ To make the model accessible and user-friendly, a Flask-based web application wa
 1. **User Interface**: The app provides a simple form to enter diamond details (carat, cut, color, clarity, etc.).
 2. **Backend**: Uses the trained Random Forest model to predict the diamond price based on user input.
 3. **Deployment**: Flask makes it easy to deploy the app on local servers or cloud platforms.
+**Here, how to arrange web applications:**
+
+```
+web_applications/
+│
+├── app.py                     # Main Flask application code
+├── best_model/
+│   └── rf_model.pkl           # Pre-trained Random Forest model (ensure it’s correctly named and stored here)
+├── static/                    
+│   ├── css/
+│      └── styles.css         # CSS for styling the web pages
+├── templates/
+│   ├── index.html             # Home page template, possibly with introductory information
+│   └── results.html           # Displays the prediction results
+```
+
+This project structure allows for easy collaboration, version control, and deployment. The Flask application also provides a user-friendly interface for predicting diamond prices.
 
 ## 💻 Installation & Usage
 
